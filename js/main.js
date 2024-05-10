@@ -7,3 +7,11 @@ createApp({
         }
     }
 }).mount("#app")
+
+createApp({
+    
+    data: {
+      
+      imageSrc: './scott-estrada-developer.jpg'
+    }
+  });
