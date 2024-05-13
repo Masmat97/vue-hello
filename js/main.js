@@ -3,15 +3,8 @@ const {createApp} = Vue
 createApp({
     data(){
         return{
-            message: "Hello Vue"
+            message: "Hello Vue",
+            url: 'image/scott-estrada-developer.jpg'
         }
     }
 }).mount("#app")
-
-createApp({
-    
-    data: {
-      
-      imageSrc: './scott-estrada-developer.jpg'
-    }
-  });
